@@ -1,1 +1,40 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .box-row {
+      overflow: auto;
+      border-spacing: 10px;
+    }
+    .box-row::-webkit-scrollbar {
+      display: none;
+    }
+
+    .box {
+      display: table-cell;
+      min-width: 100px;
+      height: 150px;
+      border: 1px solid #DDDDDD;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <section class="box-row">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </section>
+</body>
+</html>
